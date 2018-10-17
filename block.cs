@@ -48,7 +48,7 @@ namespace class_block
     	public string CalculateHash()  
     	{  
     		SHA256 sha256 = SHA256.Create();
-    		byte[] inputBytes = Encoding.ASCII.GetBytes($"{TimeStamp}-{PreviousHash ?? ""}-{JsonConvert.SerializeObject(Transactions)}-{Nonce}"); 
+    		byte[] inputBytes = Encoding.ASCII.GetBytes($"{TimeStamp}-{PreviousHash ?? ""}-{JsonConvert.SerializeObject(Transactions)}-{Nonce}"); //
         	byte[] outputBytes = sha256.ComputeHash(inputBytes);  
         	return Convert.ToBase64String(outputBytes); 
     	}

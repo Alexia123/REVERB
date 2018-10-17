@@ -14,6 +14,7 @@ using class_block;
 using inter_block;
 using class_transaction;
 using Newtonsoft.Json;
+using class_key; 
 
 namespace MainProgram
 {
@@ -50,20 +51,10 @@ namespace MainProgram
 
             Console.WriteLine("=========================");
             Console.WriteLine($"blockchain");
-            Console.WriteLine(JsonConvert.SerializeObject(blockchain, Formatting.Indented));
+            Console.WriteLine(JsonConvert.SerializeObject(blockchain, Formatting.Indented)); //convert into Jason format 
 			Console.ReadKey();
 
 
-			// Test Block 
-			//Block block0 = new Block("Block 0",blockchain._lastBlockHash,DateTime.Now);
-			
-			// // // Test Blockchain
-			//blockchain.AddBlock(block0);
-			//Console.WriteLine(blockchain);
-			
-			//Block block1 = new Block("Block 1",blockchain._lastBlockHash,DateTime.Now);
-			//blockchain.AddBlock(block1);
-			//Console.WriteLine(blockchain);
 		}
 	}
 }

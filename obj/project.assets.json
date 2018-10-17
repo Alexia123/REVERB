@@ -719,23 +719,23 @@
     ]
   },
   "packageFolders": {
-    "/home/abbar/.nuget/packages/": {},
-    "/home/abbar/.dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/fatine/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abbar/Bureau/MAIN5/REVERB/REVERB/REVERB.csproj",
+      "projectUniqueName": "/Users/fatine/Desktop/Reverb/REVERB/REVERB.csproj",
       "projectName": "REVERB",
-      "projectPath": "/home/abbar/Bureau/MAIN5/REVERB/REVERB/REVERB.csproj",
-      "packagesPath": "/home/abbar/.nuget/packages/",
-      "outputPath": "/home/abbar/Bureau/MAIN5/REVERB/REVERB/obj/",
+      "projectPath": "/Users/fatine/Desktop/Reverb/REVERB/REVERB.csproj",
+      "packagesPath": "/Users/fatine/.nuget/packages/",
+      "outputPath": "/Users/fatine/Desktop/Reverb/REVERB/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/home/abbar/.dotnet/sdk/NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/abbar/.nuget/NuGet/NuGet.Config"
+        "/Users/fatine/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
